@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "355101205965",
+    "firebase_url": "https://faculty-feedback-46ee1.firebaseio.com",
+    "project_id": "faculty-feedback-46ee1",
+    "storage_bucket": "faculty-feedback-46ee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355101205965:android:485001146061d2d19cd084",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355101205965-q6jpqj8efimnl1qk2qr6dj996rnbaee5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "ef4f985b269917d33ca33a7ea0d45b487fbc63e9"
+          }
+        },
+        {
+          "client_id": "355101205965-e0uhfb6ra16oefmmp2a2dd4u8o0p69pk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfqe6SqWhXffCAwYyydIpjSRHqxKH08ZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355101205965-e0uhfb6ra16oefmmp2a2dd4u8o0p69pk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTP"
+    android:background="@drawable/bg_home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/write_otp"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <EditText
+            android:id="@+id/id3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="250dp"
+            android:digits="1234567890+"
+            android:cursorVisible="false"
+            android:maxLength="1"
+            android:background="@drawable/edittext_bg"
+            android:autofillHints=""
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <EditText
+            android:id="@+id/id4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="250dp"
+            android:digits="1234567890+"
+            android:cursorVisible="false"
+            android:maxLength="1"
+            android:background="@drawable/edittext_bg"
+            android:autofillHints=""
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <EditText
+            android:id="@+id/id5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="250dp"
+            android:digits="1234567890+"
+            android:cursorVisible="false"
+            android:maxLength="1"
+            android:background="@drawable/edittext_bg"
+            android:autofillHints=""
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <EditText
+            android:id="@+id/id6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="250dp"
+            android:digits="1234567890+"
+            android:cursorVisible="false"
+            android:maxLength="1"
+            android:background="@drawable/edittext_bg"
+            android:autofillHints=""
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="380dp"
+            android:text="DONE"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:background="@drawable/button_bg"
+            android:textSize="30sp"
+            android:layout_marginLeft="13dp"
+            android:onClick="Reset_Password"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
